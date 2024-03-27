@@ -1,6 +1,6 @@
 function shortcut(s1, s2) {
   if (s1.length > 0 && s2.length > 0) {
-    const initialLetters = s1[0].toUpperCase() + s2[0].toUpperCase();
+    const initialLetters = s1[0] + s2[0];
     return initialLetters;
   } else {
     return "";
